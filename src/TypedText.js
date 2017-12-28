@@ -15,6 +15,7 @@ class TypedText extends Component {
       loop: true,
       loopCount: Infinity,
       showCursor: true,
+      smartBackspace: true,
       cursorChar: '|'
     };
     // this.el refers to the <span> in the render() method
@@ -32,10 +33,12 @@ class TypedText extends Component {
     return (
       <div className="wrap">
         <div className="type-wrap">
+          <h1></h1>
           <span className="type-text"
             style={{ whiteSpace: 'pre'}}
             ref={(el) => { this.el = el; }}
           />
+          <span className="type-cursor" />
         </div>
       </div>
     );
