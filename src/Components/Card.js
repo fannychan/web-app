@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../logo.svg';
+import profile from '../img/profile.JPG';
 
 const Card = () => (
   <div className="card has-text-left">
     <div className="card-image">
       <figure className="image is-2by2">
-        <img src="./img/profile.JPG" className="App-picture" alt="Avatar" />
+        <img src={profile} className="App-picture" alt="Avatar" />
       </figure>
     </div>
     <div className="card-content">
@@ -19,7 +19,7 @@ const Card = () => (
           <p className="title is-4">Fanny Chan</p>
         </div>
       </div>
-      <div className="content">Soon to be Master of Science in Information Technology</div>
+      <div className="content">Soon to be Master of Science in Information and Communication Technology</div>
     </div>
   </div>
 );

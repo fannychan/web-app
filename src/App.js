@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import TypedText from './TypedText.js';
 import Card from './Components/Card.js';
 import Navbar from './Components/Navbar.js';
+import back from './img/bakgrund.jpg';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="header">
-          <h1 className="App-title">Welcome welcome to Chinatown</h1>
+        <header className="header" style={{backgroundImage: `url(${back})`}}>
           <TypedText strings={[
             'Welcome to my online cv',
             'Welcome to my web app',
@@ -29,8 +28,9 @@ class App extends Component {
                 <h1 className="title">Hi there!</h1>
                 <p>My name is Fanny and this is a small project I have been working on for a while. It is a small project where I can try out React and Bulma.
                 </p>
+                <br />
                 <p> You can also find me here!</p>
-                <span>
+                <span className="icons">
                   <a href="https://www.linkedin.com/in/fanny-chan/" target="_blank">
                     <i className="fa fa-3x fa-linkedin-square" aria-hidden="true"></i>
                   </a>
