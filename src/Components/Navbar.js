@@ -14,6 +14,9 @@ const Navbar = () => (
     <i className="fa fa-file-text-o" aria-hidden="true"></i>
     CV
   </Link>
+  <Link to="/" className="navbar-item" aria-label="about me">
+    About me
+  </Link>
 </nav>
 
 );

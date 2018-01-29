@@ -1,3 +1,8 @@
 .tabs {
   padding-top: 20px;
 }
+
+.MediaObject-img {
+  width: 200px;
+  height: inherit;
+}

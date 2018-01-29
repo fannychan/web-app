@@ -7,7 +7,7 @@ import App from './App.js';
 const Root = () => (
     <BrowserRouter basename="/web-app">
       <div>
-        <Navbar />
+        {/* <Navbar />*/}
         <Switch>
           <Route exact path='/' component={App} />
           <Route path="/cv" component={CV} />
