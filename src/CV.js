@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navbar from './Components/Navbar.js';
 import './CV.css';
 import back from './img/bakgrund.jpg';
@@ -51,12 +53,15 @@ class CV extends Component {
 
       <div className="tabs is-centered">
         <ul>
-          <li className="is-active"  onClick={this.handleWork} ><a>Work</a></li>
-          <li onClick={this.handleEducation}><a>Education</a></li>
+          <li className="is-active"> <Link to="/cv/work">Work</Link></li>
+          <Link to="/cv/education"><li>Education</li></Link>
           <li><a>Project</a></li>
         </ul>
       </div>
-      {downpart}
+      <Switch>
+        <Route path='/cv/education' component={Education} />
+        <Route path='/cv/work' component={Work} />
+      </Switch>
     </div>
     );
   }

@@ -6,3 +6,8 @@
   width: 200px;
   height: inherit;
 }
+
+.CV-link {
+  text-decoration: none;
+  padding: 0;
+}

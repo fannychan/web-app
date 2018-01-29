@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar.js';
 import CV from './CV.js';
 import App from './App.js';
 
+
 const Root = () => (
     <BrowserRouter basename="/web-app">
       <div>
