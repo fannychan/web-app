@@ -1,8 +1,11 @@
 {
-  "main.css": "static/css/main.6c31fc53.css",
-  "main.css.map": "static/css/main.6c31fc53.css.map",
-  "main.js": "static/js/main.57e86686.js",
-  "main.js.map": "static/js/main.57e86686.js.map",
+  "main.css": "static/css/main.4f725ee4.css",
+  "main.css.map": "static/css/main.4f725ee4.css.map",
+  "main.js": "static/js/main.e299563d.js",
+  "main.js.map": "static/js/main.e299563d.js.map",
+  "static\\media\\AW.svg": "static/media/AW.5c13e94c.svg",
+  "static\\media\\Saab-logo.png": "static/media/Saab-logo.8562b855.png",
   "static\\media\\bakgrund.jpg": "static/media/bakgrund.17bb076d.jpg",
-  "static\\media\\profile.JPG": "static/media/profile.515fc2d5.JPG"
+  "static\\media\\profile.JPG": "static/media/profile.515fc2d5.JPG",
+  "static\\media\\test.jpg": "static/media/test.eb89e97a.jpg"
 }
