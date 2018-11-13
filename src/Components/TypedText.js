@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typed from 'typed.js';
-import './Typed.css'
+import '../Stylesheets/Typed.css';
 
 class TypedText extends Component {
   componentDidMount() {
@@ -13,7 +13,7 @@ class TypedText extends Component {
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
-      loopCount: Infinity,
+      loopCount: 3,
       showCursor: true,
       smartBackspace: true,
       cursorChar: '|'
