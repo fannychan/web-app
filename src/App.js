@@ -12,25 +12,24 @@ class App extends Component {
     return (
       <div className="App">
         <header className="header" style={{backgroundImage: `url(${background})`}}>
-          <TypedText strings={[
-            'Welcome to my online cv',
-            'Welcome to my web app',
-            'Welcome to my hobby project'
-          ]}
-          />
         </header>
 
         <div className="container">
-          <div className="columns is-mobile">
+          <div className="columns is-mobile is-gapless">
             <div className="column is-one-quarter">
               <Card />
             </div>
             <div className="container">
               <div className="introduction">
-                <h1 className="title">Hi there!</h1>
+                <TypedText strings={[
+                  'Hi there, stranger!',
+                  'Hi there, friend!',
+                  'Hi there, bestie!'
+                ]}
+                />
                 <p>My name is Fanny and this is my website as a part of my online cv. It is a small project where I can try out React and Bulma.
-                   Currently, I'm located in Stockholm and working as an IT consultant at Omegapoint. I work with <strong> AWS </strong>  and I have a big
-                   interest in <strong> UX </strong> and <strong> front-end developemnt </strong>
+                   I'm currently located in Stockholm and working as an IT consultant at Omegapoint. I work with <strong> AWS </strong>  and I have a big
+                   interest in <strong> UX </strong> and <strong> front-end development</strong>.
                 </p>
                 <br />
                 <br />
@@ -57,13 +56,15 @@ class App extends Component {
         </div>
         <br />
 
-        <div className='container'>
+        <div className='presentation-container'>
+        <div className="container">
         <div className="columns">
           <div className="column">
             <Presentation/>
           </div>
           <div className="column">
             <Skills/>
+          </div>
           </div>
           </div>
         </div>

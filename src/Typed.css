@@ -1,8 +1,9 @@
 .type-text {
   font-family: "Consolas", "Courier New", "Courier";
-  font-size: 40px;
+  font-weight: bold;
+  font-size: 36px;
 }
 
 .typed-cursor {
-  font-size: 40px;
+  font-size: 36px;
 }
