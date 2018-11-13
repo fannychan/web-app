@@ -4,7 +4,7 @@
 }
 
 .header {
-  height: 200px;
+  height: 400px;
   padding: 20px;
   color: white;
   margin-bottom: 30px;
@@ -28,6 +28,8 @@
 .title {
   font-family: "Consolas", "Courier New", "Courier";
 }
+
+
 
 .icons .fa{
   padding: 10px;

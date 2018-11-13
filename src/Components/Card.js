@@ -10,16 +10,11 @@ const Card = () => (
     </div>
     <div className="card-content">
       <div className="media">
-        <div className="media-left">
-          <span>
-            <i class="fa fa-3x fa-user-circle-o" aria-hidden="true"></i>
-          </span>
-        </div>
         <div className="media-content">
           <p className="title is-4">Fanny Chan</p>
         </div>
       </div>
-      <div className="content">Soon to be Master of Science in Information and Communication Technology</div>
+      <div className="content">Consultant at OmegaPoint</div>
     </div>
   </div>
 );

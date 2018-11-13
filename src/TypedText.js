@@ -13,7 +13,7 @@ class TypedText extends Component {
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
-      loopCount: Infinity,
+      loopCount: 3,
       showCursor: true,
       smartBackspace: true,
       cursorChar: '|'
