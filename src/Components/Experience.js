@@ -69,9 +69,8 @@ const Experience = () => (
     <Entry>
       <Content>
         <JobTitle>IT Consultant / Omegapoint</JobTitle>
-        <JobDescription>My primarly developing fullstack and working with AWS.
-        I am currently working as consultant at Kronans Apotek and being
-        a part of their development organization to build up the the infrastructure. </JobDescription>
+        <JobDescription>I am a fullstack developer and work with AWS.
+        I am currently working as consultant at Kronans Apotek. </JobDescription>
         <p>September 2018 - Present</p>
       </Content>
     </Entry>
@@ -86,8 +85,7 @@ const Experience = () => (
     <Entry>
     <Content>
       <JobTitle>IT Support / Academic Work</JobTitle>
-      <JobDescription>My assignments as an IT support was to be first-line support for the internal organization.
-      It included to work with internal systems, microsoft office programs and hardware.</JobDescription>
+      <JobDescription>My assignments as an IT support was to be first-line support for the internal organization.</JobDescription>
       <p>May 2016 - August 2018</p>
     </Content>
     </Entry>
