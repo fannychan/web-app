@@ -29,7 +29,7 @@
 
 }
 
-.title {
+.title, .presentation-container{
   font-family: "Consolas", "Courier New", "Courier";
 }
 

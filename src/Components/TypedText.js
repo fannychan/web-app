@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Typed from 'typed.js';
-import './Typed.css'
+import '../Stylesheets/Typed.css';
 
 class TypedText extends Component {
   componentDidMount() {

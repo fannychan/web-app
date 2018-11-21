@@ -1,101 +1,56 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import '../Stylesheets/Presentation.css';
 import styled from 'styled-components';
+import profile from '../img/profile.JPG';
+import TypedText from './TypedText.js';
 
-
-const JobTitle = styled.p`
-  border-bottom: 2px solid #336b87;
-  font-family: "Consolas", "Courier New", "Courier";
-  font-weight: bold;
-`;
-
-const JobDescription = styled.p`
-  font-family: "Consolas", "Courier New", "Courier";
-`;
-
-const Timeline = styled.div`
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-
-  ::after {
-  content: '';
-  position: absolute;
-  width: 1px;
-  background-color: grey;
-  top: 15px;
-  bottom: 0;
-  left: 5%;
-  margin-left: -3px;
-  }
-`;
-
-
-const Content = styled.div`
-  padding: 0px 30px;
-  position: relative;
-`;
-
-const Entry = styled.div`
-  padding: 10px 40px;
-  position: relative;
-  width: 90%;
-
-
-  ::after {
-  content: '';
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  right: -17px;
-  background-color:#336B87;
-  border: 4px solid #336B87;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-  left: 4%;
-  }
-`;
+const ProfilePicture = styled.div`
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 5px;
+  `;
 
 
 const Presentation = () => (
-<div>
-  <div>
-    <p className="secondary-title">Experiences</p>
+  <div className="columns is-mobile">
+      <ProfilePicture className="column is-one-third">
+        <img src={profile} className="app-picture" alt="Avatar" />
+      </ProfilePicture>
+    <div className="container">
+      <div className="introduction">
+        <TypedText strings={[
+          'Hi there, stranger!',
+          'Hi there, bestie!',
+          'Hi there, friend!'
+        ]}
+        />
+        <p>My name is Fanny and this is my website as a part of my online cv. It is a small project where I can try out React and Bulma.
+            I'm currently located in Stockholm and working as an IT consultant at Omegapoint. I work with <strong> AWS </strong>  and I have a big
+            interest in <strong> UX </strong> and <strong> front-end development</strong>.
+        </p>
+        <br />
+
+        <p>You can find me here!</p>
+        <span className="icons">
+          <a href="https://www.linkedin.com/in/fanny-chan/" target="_blank">
+            <i className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+          <a href="https://saujean.wordpress.com/" target="_blank">
+            <i className="fa fa-2x fa-wordpress" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/fannychan" target="_blank">
+            <i className="fa fa-2x fa-github" aria-hidden="true"></i>
+          </a>
+        </span>
+        <br />
+        <p> You can also find send me an email on&nbsp; 
+          <i className="fa fa-envelope-o" aria-hidden="true"></i>
+          fanny.chan@omegapoint.se</p>
+      </div>
+    </div>
   </div>
-
-  <Timeline>
-    <Entry>
-      <Content>
-        <JobTitle>IT Consultant / Omegapoint</JobTitle>
-        <JobDescription>My primarly developing fullstack and working with AWS.
-        I am currently working as consultant at Kronans Apotek and being
-        a part of their development organization to build up the the infrastructure. </JobDescription>
-        <p>September 2018 - Present</p>
-      </Content>
-    </Entry>
-    <Entry>
-      <Content>
-        <JobTitle>Master Thesis Intern / SAAB</JobTitle>
-        <JobDescription>My master thesis was about continuous delivery and investigating if a
-        dashboard system could provide support in the continuous delivery pipeline by creating better monitoring. </JobDescription>
-        <p>January 2018 - June 2018</p>
-      </Content>
-    </Entry>
-    <Entry>
-    <Content>
-      <JobTitle>IT Support / Academic Work</JobTitle>
-      <JobDescription>My assignments as an IT support was to be first-line support for the internal organization.
-      It included to work with internal systems, microsoft office programs and hardware.</JobDescription>
-      <p>May 2016 - August 2018</p>
-    </Content>
-    </Entry>
-
-  </Timeline>
-</div>
 );
-
-
 
 export default Presentation;
