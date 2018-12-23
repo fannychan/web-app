@@ -17,6 +17,17 @@ const SkillBar = styled.div`
     box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
     height: 20px;
     width: 300px;
+
+    @media (max-width: 700px) {
+      width: 200px;
+      background: linear-gradient(
+        to right,
+        #336b87 calc(200px * ${props => props.fill}),
+        rgba(167,84,134,0) calc(200px * ${props => props.fill})
+        );
+
+      margin-right: 5px;
+    }
 `;
 
 const Skills = () => (
@@ -54,6 +65,12 @@ const Wrapper = styled.div`
     width: 430px;
     margin-top: 8px;
     margin-bottom: 40px;
+
+    @media (max-width: 700px) {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
 `;
 
 

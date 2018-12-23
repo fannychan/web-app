@@ -7,3 +7,16 @@
 .typed-cursor {
   font-size: 36px;
 }
+
+@media screen and (max-width: 700px) {
+  .type-text {
+    font-family: "Consolas", "Courier New", "Courier";
+    font-weight: bold;
+    font-size: 28px;
+    margin-left: 5%;
+  }
+
+  .typed-cursor {
+    font-size: 28px;
+  }
+}

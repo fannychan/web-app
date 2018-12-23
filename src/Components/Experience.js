@@ -29,6 +29,12 @@ const Timeline = styled.div`
   left: 5%;
   margin-left: -3px;
   }
+
+  @media (max-width: 700px) {
+    ::after {
+      left: 6.5%;
+    }
+  }
 `;
 
 

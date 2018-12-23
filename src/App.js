@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Link } from 'react-router-dom';
 import Experience from './Components/Experience.js';
 import Skills from './Components/Skills.js';
 import background from './img/TypedTextBackground.jpg';
@@ -19,7 +18,7 @@ class App extends Component {
         </div>
         <br />
         <div className='presentation-container'>
-          <div className="container">
+          <div className="container wrapper">
             <div className="columns">
               <div className="column">
                 <Experience />
