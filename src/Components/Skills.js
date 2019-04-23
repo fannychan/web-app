@@ -40,19 +40,19 @@ const Skills = () => (
       />
       <Skill
         text = "UX Design"
-        proficiency = "0.7"
+        proficiency = "0.6"
       />
       <Skill
         text = "AWS"
-        proficiency = "0.5"
+        proficiency = "0.8"
       />
       <Skill
         text = "Java"
         proficiency = "0.5"
       />
       <Skill
-        text = "Python"
-        proficiency = "0.3"
+        text = "Spring Boot"
+        proficiency = "0.4"
       />
     </div>
   </div>

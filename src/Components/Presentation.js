@@ -35,13 +35,10 @@ const Presentation = () => (
 
         <p>You can find me here!</p>
         <span className="icons">
-          <a href="https://www.linkedin.com/in/fanny-chan/" target="_blank">
+          <a href="https://www.linkedin.com/in/fanny-chan/" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
           </a>
-          <a href="https://saujean.wordpress.com/" target="_blank">
-            <i className="fa fa-2x fa-wordpress" aria-hidden="true"></i>
-          </a>
-          <a href="https://github.com/fannychan" target="_blank">
+          <a href="https://github.com/fannychan" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-2x fa-github" aria-hidden="true"></i>
           </a>
         </span>
