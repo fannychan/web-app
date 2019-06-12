@@ -5,12 +5,16 @@
   "homepage": "http://fannychan.github.io/web-app",
   "dependencies": {
     "bulma": "^0.6.2",
+    "js-yaml": "^3.13.1",
     "react": "^16.8.6",
+    "react-dev-utils": "^9.0.1",
     "react-dom": "^16.8.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.0.17",
+    "react-scripts": "^1.1.5",
     "styled-components": "^3.3.2",
-    "typed.js": "^2.0.10"
+    "typed.js": "^2.0.10",
+    "url-parse": "^1.4.7",
+    "webpack-dev-server": "^3.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
